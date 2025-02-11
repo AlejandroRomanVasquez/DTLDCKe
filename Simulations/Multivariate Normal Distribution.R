@@ -13,7 +13,7 @@ library(seqknockoff)
 library(dplyr)
 
 
-##### Auxilary functions #####
+##### Auxiliary functions #####
 
 #Ordinal to latent uniform transfomation
 ordinal_to_uniform <- function(column){
