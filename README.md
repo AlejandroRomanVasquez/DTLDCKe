@@ -12,4 +12,4 @@ seqknockoff_0.0.0.9000   latentcor_1.2.0
 
 The folder 'Simulations' contains code related to three distinct data-generating processes (DGPs) for the predictors X considered in the paper: a multivariate normal distribution, a t-tailed Markov chain, and Survival Regression with Block Correlated AR1 Structure. Additionally, it contains the code for computation time (Appendix A).
 
-The folder 'Application' contains code and data for applying the proposed methodology to a real lung cancer dataset. The 'Lung_data' contains the top 1000 most expressed genes out of a total of 12,259 genes from the genomic dataset of the research by Shedden et al. (2008), located in the Lung Cancer Explorer (LCE) database at http://lce.biohpc.swmed.edu/.
+The folder 'Application' contains code and data for applying the proposed methodology to a real lung cancer dataset. The 'lung cancer data' contains the top 1000 most expressed genes out of a total of 12,259 genes from the genomic dataset of the research by Shedden et al. (2008), located in the Lung Cancer Explorer (LCE) database at http://lce.biohpc.swmed.edu/.
