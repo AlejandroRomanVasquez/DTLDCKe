@@ -1044,11 +1044,6 @@ for ( censoring in vec_censoring ){
   }  
 }
 
-#df_simulations_censoring %>%  filter(Censoring==30.0) %>% summarise(average=mean(Data_censoring))
-
-#kmfit <- survfit(y_surv~1, data= ls_simulations[[5]] )
-#plot(kmfit, lty = c("solid", "dashed"), col = c("black", "grey"), xlab = "Survival Time In Days", ylab = "Survival Probabilities")
-
 #### Non-parametric DTDCKe ####
 
 # Initial setup
