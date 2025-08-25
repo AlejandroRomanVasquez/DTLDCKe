@@ -989,7 +989,8 @@ for ( censoring in vec_censoring ){
     
     #Multivariate normal distribution realizations
     X <- mvrnorm(n, mu=rep(0,p), Sigma = corMat)
-    
+
+    # Skew-t distribution for maginals
     for(j in 1:p) {   if(types[j]=="num")
     {tryCatch({X[,j] <-as.vector(qst(pnorm(X[,j]),xi=0, omega=1,alpha=alpha_level,nu=nu_level))}, 
               error=function(e){X[,j] <-as.vector(qst(pnorm(X[,j]),xi=0, omega=1,alpha=alpha_level, nu=nu_level, solver="RFB"))}) }}
