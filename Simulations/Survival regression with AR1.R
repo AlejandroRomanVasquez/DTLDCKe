@@ -969,7 +969,7 @@ df_column_names_betas <- c("Censoring","Iteration", beta_column_names)
 ls_simulations <- list()
 ls_simulations_betas <- list()
 
-# Creating empty data.frame store the data censoring percentage
+# Creating empty data.frame to store the data censoring percentage
 df_simulations_censoring  <- data.frame(matrix(ncol = 3, nrow = 0))
 colnames(df_simulations_censoring) <- c("Censoring","Iteration", "Data_censoring")
 
